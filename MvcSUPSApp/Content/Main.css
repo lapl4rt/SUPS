@@ -1,0 +1,20 @@
+﻿body {
+}
+
+.report
+{
+    border: 1px solid black;
+    width: 700px;
+}
+
+    .report th
+    {
+        padding: 10px;
+        border-left: 1px solid black;
+    }
+
+    .report td
+    {
+        padding: 10px;
+        border-left: 1px solid black;
+    }
