@@ -1,0 +1,34 @@
+﻿@model DigDes.DSchool.SUPS.DataAccess.Interface.ReportInfo
+
+@{
+    ViewBag.Title = "Report";
+}
+
+<h2>Report</h2>
+
+<link href="~/Content/Main.css" rel="stylesheet" type="text/css" />
+
+<table class="report">
+    @{
+        List<DigDes.DSchool.SUPS.DataAccess.Interface.ReportInfo> report = 
+            (List<DigDes.DSchool.SUPS.DataAccess.Interface.ReportInfo>)ViewData["report"];
+    }
+
+    <tr>
+        <th>@Html.LabelFor(model => model.CarNumber)</th>
+        <th>@Html.LabelFor(model => model.LoadTime)</th>
+        <th>@Html.LabelFor(model => model.UnloadTime)</th>
+        <th>@Html.LabelFor(model => model.DepartTime)</th>
+        <th>@Html.LabelFor(model => model.ArriveTime)</th>
+    </tr>
+    @foreach (DigDes.DSchool.SUPS.DataAccess.Interface.ReportInfo reportInfo in report)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => reportInfo.CarNumber)</td>
+            <td>@Html.DisplayFor(modelItem => reportInfo.LoadTime)</td>
+            <td>@Html.DisplayFor(modelItem => reportInfo.UnloadTime)</td>
+            <td>@Html.DisplayFor(modelItem => reportInfo.DepartTime)</td>
+            <td>@Html.DisplayFor(modelItem => reportInfo.ArriveTime)</td>
+        </tr>
+    }
+</table>
