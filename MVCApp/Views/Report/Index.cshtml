@@ -1,0 +1,53 @@
+﻿@using DigDes.DSchool.SUPS.DataAccess.Interface
+@model List<DigDes.DSchool.SUPS.DataAccess.Interface.ReportInfo>
+
+@{
+    ViewBag.Title = "Отчет о вагонах";
+}
+
+<h2>Отчет о вагонах</h2>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayName("Номер вагона")
+        </th>
+        <th>
+            @Html.DisplayName("Погрузка вагона")
+        </th>
+        <th>
+            @Html.DisplayName("Разгрузка вагона")
+        </th>
+        <th>
+            @Html.DisplayName("Время отправления")
+        </th>
+        <th>
+            @Html.DisplayName("Время прибытия")
+        </th>
+        <th></th>
+    </tr>
+
+    @{ List<ReportInfo> data = (List<ReportInfo>)ViewData["reportTable"];}
+
+    @foreach (DigDes.DSchool.SUPS.DataAccess.Interface.ReportInfo item in data)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoadTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnloadTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DepartTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ArriveTime)
+            </td>
+        </tr>
+    }
+
+</table>

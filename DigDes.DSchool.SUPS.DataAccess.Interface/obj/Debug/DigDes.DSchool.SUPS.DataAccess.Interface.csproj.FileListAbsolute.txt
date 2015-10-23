@@ -1,0 +1,5 @@
+D:\Programming\C#\Projects\Yuliya Artishevskaya\DigDes.DSchool.SUPS\DigDes.DSchool.SUPS.DataAccess.Interface\bin\Debug\DigDes.DSchool.SUPS.DataAccess.Interface.dll
+D:\Programming\C#\Projects\Yuliya Artishevskaya\DigDes.DSchool.SUPS\DigDes.DSchool.SUPS.DataAccess.Interface\bin\Debug\DigDes.DSchool.SUPS.DataAccess.Interface.pdb
+D:\Programming\C#\Projects\Yuliya Artishevskaya\DigDes.DSchool.SUPS\DigDes.DSchool.SUPS.DataAccess.Interface\obj\Debug\DigDes.DSchool.SUPS.DataAccess.Interface.csprojResolveAssemblyReference.cache
+D:\Programming\C#\Projects\Yuliya Artishevskaya\DigDes.DSchool.SUPS\DigDes.DSchool.SUPS.DataAccess.Interface\obj\Debug\DigDes.DSchool.SUPS.DataAccess.Interface.dll
+D:\Programming\C#\Projects\Yuliya Artishevskaya\DigDes.DSchool.SUPS\DigDes.DSchool.SUPS.DataAccess.Interface\obj\Debug\DigDes.DSchool.SUPS.DataAccess.Interface.pdb
